@@ -15,5 +15,17 @@
 ```powershell
 # Запустите от имени администратора
 .\scripts\install-drivers.ps1 -DriverPath "D:\Drivers"
-
+```
+### Мониторинг дискового пространства
 ```powershell
+# Настройте параметры SMTP-сервера внутри скрипта
+.\scripts\monitor-disk.ps1
+```
+### Подключение сетевого диска
+```powershell
+map-network-drive.bat
+```
+### Настройка правил брандмауэра
+```powershell
+.\scripts\firewall-rules.ps1
+```
